@@ -9,7 +9,7 @@ function Home() {
         <div className="content">
         <Navbar />
             <div className="banner">
-                {/* add big bannner image here */}
+                {/* <img src="fitbanner.jpeg" alt="jacked dude"></img> */}
             </div>
             <div className="about">
                 <h2>ABOUT CHURCH OF IRON, HUNTINGTON BEACH</h2>
