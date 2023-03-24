@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return(
         <div className="nav">
+            <div>
             <h1 id="name">CHURCH OF IRON</h1>
+            </div>
             <div className="btns">
                 <button id="free">FREE PASS</button>
                 <a href="/join"><button id="join">JOIN NOW</button></a>

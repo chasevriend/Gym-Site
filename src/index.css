@@ -1,11 +1,13 @@
 body {
-  background-color: #f0ece2;
+  background-color: #f8f8f8;
   margin-left: 0px;
   /* font-family: ; */
 }
 
+/* remember to make mobile responsive  */
+
 .nav {
-  background-color: #f0ece2;
+  background-color: #f8f8f8;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0px;
@@ -22,18 +24,24 @@ body {
 
 
 .nav .btns button {
-  padding: 5px 10px;
   margin-top: 10px;
   margin-left: 8px;
   border-radius: 10%;
 }
 
 #join {
-
+  background-color: #363636;
+  color: white;
+  margin-right: 20px;
+  padding: 8px 15px;
 }
 
 #free {
-  
+  background-color: #dc2f2f;
+  color: black;
+  border: #dc2f2f;
+  padding: 10px 15px;
+  margin-right: 5px;
 }
 
 .banner {
@@ -41,15 +49,64 @@ body {
   height: 55vh;
   width: 100vw;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+}
+
+.content {
+  display: flex;
+}
+
+.content h2 {
+  font-size: 18px;
+}
+
+
+.content .about {
+  width: 80vw;
+  margin-right: 40px;
+}
+
+.content .contact-info p {
+  padding: 5px;
+  margin: 0px 0px;
+}
+
+.content .contact-info hr {
+  padding: 0px;
+  margin: 2px;
+}
+
+#cells p {
+  display: inline-block;
+  position: absolute;
+  margin-bottom: 5px;
+}
+
+#cells svg {
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+#cells br {
+  margin: 10px;
+}
+
+#cell1 p {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#socials svg {
+  margin-left: 0px;
+  margin-right: 20px;
 }
 
 .freepass {
-  background-color: #dfd3c3;
+  background-color: #f8f8f8;
 }
 
 .footer {
-  background-color: #f0ece2;
+  background-color: #f8f8f8;
 }
 
 
