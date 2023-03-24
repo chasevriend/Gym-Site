@@ -45,7 +45,7 @@ body {
 }
 
 .banner {
-  background: url(chrisbanner.webp);
+  background: url(images/chrisbanner.webp);
   height: 55vh;
   width: 100vw;
   background-size: cover;
@@ -66,15 +66,39 @@ body {
   margin-right: 40px;
 }
 
-.content .contact-info p {
-  padding: 5px;
-  margin: 0px 0px;
+.content .gym-photos {
+  display: flex;
 }
 
-.content .contact-info hr {
-  padding: 0px;
-  margin: 2px;
+.gym-photo1 {
+  background-image: url(images/gym1.jpg);
+  height: 25vh;
+  width: 25vw;
+  margin: 5px;
+  background-size: cover;
 }
+
+.gym-photo2 {
+  background-image: url(images/gym2.jpeg);
+  height: 25vh;
+  width: 25vw;
+  margin: 5px;
+  background-size: cover;
+}
+
+.gym-photo3 {
+  background-image: url(images/gym3.jpeg);
+  height: 25vh;
+  width: 25vw;
+  margin: 5px;
+  background-size: cover;
+}
+
+.content .contact-info p {
+  padding: 5px;
+  margin: 0px;
+}
+
 
 #cells p {
   display: inline-block;
@@ -103,6 +127,10 @@ body {
 
 .freepass {
   background-color: #f8f8f8;
+}
+
+.form {
+  display: flex;
 }
 
 .footer {

@@ -8,19 +8,29 @@ function FreePassForm() {
             <div className="form">
                 <form>
                     {/* add red dot to show each is required */}
-                    <p>First Name</p>
-                    <input placeholder="First Name" required></input>
-                    <p>Last Name</p>
-                    <input placeholder="Last Name" required></input>
-                    <p>Email Address</p>
-                    <input placeholder="Email Address" required></input>
-                    <p>Phone Number</p>
-                    <input placeholder="Phone Number" required></input>
-                    <p>Zip Code</p>
-                    <input placeholder="Zip Code" required></input>
+                    <div>
+                        <p>First Name</p>
+                        <input placeholder="First Name" required></input>
+                    </div>
+                    <div>
+                        <p>Last Name</p>
+                        <input placeholder="Last Name" required></input>
+                    </div>
+                    <div>
+                        <p>Email Address</p>
+                        <input placeholder="Email Address" required></input>
+                    </div>
+                    <div>
+                        <p>Phone Number</p>
+                        <input placeholder="Phone Number" required></input>
+                    </div>
+                    <div>
+                        <p>Zip Code</p>
+                        <input placeholder="Zip Code" required></input>
+                    </div>
                 </form>
-                <button>SIGN UP</button>
             </div>
+            <button>SIGN UP</button>
         </div>
     )
 }

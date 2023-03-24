@@ -17,7 +17,17 @@ function Home() {
                     <p>Welcome to the best gym in all of Orange County. This gym is well-equipped with top notch classes, Olympic platforms,
                     Weight area, Cardio, Outdoor pool, Functional Turf with slid lanes but of course we always strive for the best.</p>
                     <h2>Gym Photos</h2>
-                    {/* add photos of gym here */}
+                    <div className="gym-photos">
+                        <div className="gym-photo1">
+                            {/* gym photo #1 */}
+                        </div>
+                        <div className="gym-photo2">
+                            {/* gym photo #2 */}
+                        </div>
+                        <div className="gym-photo3">
+                            {/* gym photo #3 */}
+                        </div>
+                    </div>
                 </div>
                 <div className="contact-info">
                     <h2>CONTACT INFO</h2>
@@ -50,7 +60,7 @@ function Home() {
                     {/* <div className="hours">
                         <p className="weekday-hours">Weekdays: 6:00AM - 11:00PM</p>
                         <p className="weekend-hours">Weekends: 7:00AM - 7:00PM</p>
-                    </div> */}
+                \`  /lkffs</div> */}
                     <h2>CONNECT WITH OUR COMMUNITY</h2>
                     <div id="socials">
                         <svg viewBox="0 0 512 512" height="30"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"/></svg>
