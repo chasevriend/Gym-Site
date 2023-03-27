@@ -49,6 +49,11 @@ function Home() {
 
                     </div>
                 </div>
+                <div id="photos">
+                    <div id="photo1"></div>
+                    <div id="photo2"></div>
+                    <div id="photo3"></div>
+                </div>
             </div>
             <GuestPassForm />
             <Footer />

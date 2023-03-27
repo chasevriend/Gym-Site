@@ -7,7 +7,7 @@ function Navbar() {
             <a class="navbar-brand" id="logo" href="/">CHURCH OF IRON</a>
             <div class="navBtns">
                 <button class="navBtn btn-danger" id="freeBtn">FREE PASS</button>
-                <button class="navBtn btn-dark" id="joinBtn">JOIN NOW</button>
+                <button class="navBtn btn-dark" id="joinBtn"><a href="/join">JOIN NOW</a></button>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
