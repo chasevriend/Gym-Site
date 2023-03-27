@@ -3,24 +3,24 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return(
-        <div className="nav">
-            <div>
-            <h1 id="name">CHURCH OF IRON</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" id="logo" href="/">CHURCH OF IRON</a>
+            <div class="navBtns">
+                <button class="navBtn btn-danger" id="freeBtn">FREE PASS</button>
+                <button class="navBtn btn-dark" id="joinBtn">JOIN NOW</button>
             </div>
-            <div className="btns">
-                <button id="free">FREE PASS</button>
-                <a href="/join"><button id="join">JOIN NOW</button></a>
-            {/* </div> */}
-            {/* create hamburger menu */}
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48" id="hamburger"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/amenities">AMENITIES</a>
+                <a class="nav-item nav-link" href="/schedule">CLASS SCHEDULE</a>
+                <a class="nav-item nav-link" href="/join">JOIN NOW</a>
+                </div>
             </div>
-            {/* <div className="hamburger">
-                <Link to="/">GYM HOME</Link>
-                <Link to="/amenities">AMENITIES</Link>
-                <Link to="/schedule">SCHEDULE</Link>
-                <Link to="/join">JOIN NOW</Link>
-            </div> */}
-        </div>
+        </nav>
     )
 }
 

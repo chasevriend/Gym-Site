@@ -1,140 +1,26 @@
-body {
-  background-color: #f8f8f8;
-  margin-left: 0px;
-  /* font-family: ; */
+#logo {
+    font-size: 25px;
 }
 
-/* remember to make mobile responsive  */
-
-.nav {
-  background-color: #f8f8f8;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0px;
+.navBtns {
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: 20px;
 }
 
-#name {
-  float: left;
-  margin-top: 5px;
-}
-
-.nav svg {
-  float: right;
-}
-
-
-.nav .btns button {
-  margin-top: 10px;
-  margin-left: 8px;
-  border-radius: 10%;
-}
-
-#join {
-  background-color: #363636;
-  color: white;
-  margin-right: 20px;
-  padding: 8px 15px;
-}
-
-#free {
-  background-color: #dc2f2f;
-  color: black;
-  border: #dc2f2f;
-  padding: 10px 15px;
-  margin-right: 5px;
+.navBtn {
+    margin-right: 10px;
+    padding: 5px 10px;
 }
 
 .banner {
-  background: url(images/chrisbanner.webp);
-  height: 55vh;
-  width: 100vw;
-  background-size: cover;
-  /* background-position: center; */
+    background: url(./images/chrisbanner.webp);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
 }
 
-.content {
-  display: flex;
-}
-
-.content h2 {
-  font-size: 18px;
-}
-
-
-.content .about {
-  width: 80vw;
-  margin-right: 40px;
-}
-
-.content .gym-photos {
-  display: flex;
-}
-
-.gym-photo1 {
-  background-image: url(images/gym1.jpg);
-  height: 25vh;
-  width: 25vw;
-  margin: 5px;
-  background-size: cover;
-}
-
-.gym-photo2 {
-  background-image: url(images/gym2.jpeg);
-  height: 25vh;
-  width: 25vw;
-  margin: 5px;
-  background-size: cover;
-}
-
-.gym-photo3 {
-  background-image: url(images/gym3.jpeg);
-  height: 25vh;
-  width: 25vw;
-  margin: 5px;
-  background-size: cover;
-}
-
-.content .contact-info p {
-  padding: 5px;
-  margin: 0px;
-}
-
-
-#cells p {
-  display: inline-block;
-  position: absolute;
-  margin-bottom: 5px;
-}
-
-#cells svg {
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
-
-#cells br {
-  margin: 10px;
-}
-
-#cell1 p {
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
-#socials svg {
-  margin-left: 0px;
-  margin-right: 20px;
-}
-
-.freepass {
-  background-color: #f8f8f8;
-}
-
-.form {
-  display: flex;
-}
-
-.footer {
-  background-color: #f8f8f8;
-}
-
-
+/* .banner img {
+    max-width: 100%;
+    height: auto;
+} */
