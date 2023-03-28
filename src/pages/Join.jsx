@@ -1,9 +1,12 @@
 //Schedule page
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Join() {
     return (
         <div>
+        <Navbar />
             <h1>Join page</h1>
             <div id="joinProcess">
                 <div>
@@ -20,6 +23,7 @@ function Join() {
                 </div>
             </div>
             <JoinNowForm />
+            <Footer />
         </div>
     );
 }
