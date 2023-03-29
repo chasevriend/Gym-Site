@@ -14,7 +14,7 @@ function Home() {
             <div className="banner"></div>
             <div className="container">
                 <div className="row">
-                    <div className="col-8">
+                    <div className="col-8" id="about">
                         <h2>ABOUT CHURCH OF IRON</h2>
                         <p>In comparison of all Orange County gyms, Church of Iron checks all the boxes. This gym is well-equipped with top notch
                         classes, Olympic platforms, weight area, cardio, outdoor pool, Functional Turf with slid lanes but of course we are always

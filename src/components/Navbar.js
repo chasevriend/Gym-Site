@@ -14,7 +14,7 @@ function Navbar() {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup navItems">
                 <div class="navbar-nav" id="navItems">
-                <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="/">HOME <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="/amenities">AMENITIES</a>
                 <a class="nav-item nav-link" href="/schedule">CLASS SCHEDULE</a>
                 <a class="nav-item nav-link" href="/join">JOIN NOW</a>
